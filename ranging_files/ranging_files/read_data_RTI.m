@@ -14,7 +14,7 @@ close all;
 
 %read the raw data .wave file here
 % [Y,FS] = audioread('running_outside_20ms.wav');
-[Y,FS] = audioread('myRecording_1.wav');
+[Y,FS] = audioread('myRecording_3.wav');
 
 %constants
 c = 3E8; %(m/s) speed of light

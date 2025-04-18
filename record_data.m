@@ -15,7 +15,7 @@ recObj = audiorecorder(Fs, nBits, nChannels, deviceID);
 
 %%
 
-recordblocking(recObj, 80);  % Record for 5 seconds
+recordblocking(recObj, 40);  % Record for 5 seconds
 disp('Recording complete.');
 
 
@@ -23,4 +23,4 @@ disp('Recording complete.');
 %% Save?
 
 audioData = getaudiodata(recObj);
-audiowrite('myRecording_1.wav', audioData, Fs);
+audiowrite('myRecording_3.wav', audioData, Fs);
